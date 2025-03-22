@@ -13,7 +13,7 @@ export default function Home() {
             Institutional-grade digital asset management and OTC trading for discerning investors
           </h2>
           <p className="text-lg max-w-3xl mb-10 text-slate-700 dark:text-slate-400">
-            We help high-net-worth individuals, funds, and founders execute large crypto trades with precision while unlocking premium yield strategies others can&apos;t access.
+            We help high-net-worth individuals, funds, and founders execute large crypto trades with precision while unlocking premium yield strategies others cant access.
           </p>
           <div className="flex flex-col sm:flex-row gap-5">
             <a
