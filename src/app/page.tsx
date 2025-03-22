@@ -47,102 +47,98 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-24 bg-white dark:bg-slate-800">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center mb-4">
-              <div className="h-1 w-8 bg-indigo-600 mr-3 rounded-full"></div>
-              <p className="text-sm font-medium text-indigo-600 tracking-widest uppercase">Our Services</p>
-              <div className="h-1 w-8 bg-indigo-600 ml-3 rounded-full"></div>
-            </div>
-            <h2 className="text-4xl font-bold mb-4">Institutional-Grade Solutions</h2>
-            <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Tailored services designed for sophisticated investors seeking secure exposure to digital assets</p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Service cards with more modern styling */}
-            <div className="p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
-              <div className="absolute -right-4 -top-4 w-24 h-24 bg-indigo-100 dark:bg-indigo-900/20 rounded-full opacity-70 group-hover:scale-125 transition-transform"></div>
-              <div className="relative">
-                <div className="text-3xl mb-6 text-indigo-600 bg-indigo-100 dark:bg-indigo-900/30 w-16 h-16 rounded-xl flex items-center justify-center">🔄</div>
-                <h3 className="text-xl font-semibold mb-3">OTC Crypto Trading</h3>
-                <p className="text-slate-600 dark:text-slate-400 mb-4">
-                  Private, slippage-free execution for BTC, ETH, SOL & USDC trades over $100k
-                </p>
-                <div className="pt-2">
-                  <a href="#" className="text-indigo-600 font-medium flex items-center">
-                    Learn more <span className="ml-1">→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Additional service cards with similar styling */}
-            {/* ... service cards continue ... */}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section className="py-24 bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
-        <div className="container mx-auto px-6">
-          <div className="max-w-5xl mx-auto">
+      <section id="grouping" className="py-24 bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800">
+        <section id="services" className="py-24">
+          <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4">Why Top Investors Choose PrimeLayer</h2>
-              <p className="text-xl text-slate-600 dark:text-slate-400">The trusted partner for digital asset management</p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="p-6">
-                <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg flex items-center justify-center text-indigo-600 mb-5">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-3">Bank-Grade Security</h3>
-                <p className="text-slate-600 dark:text-slate-400">Multi-sig infrastructure and institutional custody solutions protecting your assets</p>
+              <div className="inline-flex items-center mb-4">
+                <div className="h-1 w-8 bg-indigo-600 mr-3 rounded-full"></div>
+                <p className="text-sm font-medium text-indigo-600 tracking-widest uppercase">Our Services</p>
+                <div className="h-1 w-8 bg-indigo-600 ml-3 rounded-full"></div>
               </div>
-
-              {/* Additional feature cards continue */}
+              <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Institutional-Grade Solutions</h2>
+              <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Tailored services designed for sophisticated investors seeking secure exposure to digital assets</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Strategies Section - Modernized */}
-      {/* ... Updated table with more modern styling ... */}
-
-      {/* Testimonials Section - New */}
-      <section className="py-24 bg-white dark:bg-slate-800">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center mb-4">
-              <div className="h-1 w-8 bg-indigo-600 mr-3 rounded-full"></div>
-              <p className="text-sm font-medium text-indigo-600 tracking-widest uppercase">Client Testimonials</p>
-              <div className="h-1 w-8 bg-indigo-600 ml-3 rounded-full"></div>
-            </div>
-            <h2 className="text-4xl font-bold mb-4">What Our Clients Say</h2>
-          </div>
-
-          {/* Testimonial cards */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 shadow-lg">
-              <div className="flex items-center mb-6">
-                <div className="text-yellow-400 flex">
-                  {"\u2605".repeat(5)}
-                </div>
-              </div>
-              <p className="text-lg italic mb-6">&quot;PrimeLayer helped our family office execute a $2.8M ETH position with zero slippage during high volatility. Their advice on staking and yield strategies has been invaluable.&quot;</p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900/30 mr-4"></div>
-                <div>
-                  <p className="font-bold">Michael K.</p>
-                  <p className="text-sm text-slate-500">Former VP, Goldman Sachs</p>
+            <div className="flex justify-center">
+              <div className="max-w-md p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
+                <div className="absolute -right-4 -top-4 w-24 h-24 bg-indigo-100 dark:bg-indigo-900/20 rounded-full opacity-70 group-hover:scale-125 transition-transform"></div>
+                <div className="relative">
+                  <div className="text-3xl mb-6 text-indigo-600 bg-indigo-100 dark:bg-indigo-900/30 w-16 h-16 rounded-xl flex items-center justify-center">🔄</div>
+                  <h3 className="text-xl font-semibold mb-3">OTC Crypto Trading</h3>
+                  <p className="text-slate-600 dark:text-slate-400 mb-4">
+                    Private, slippage-free execution for BTC, ETH, SOL & USDC trades over $100k
+                  </p>
+                  <div className="pt-2">
+                    <a href="#" className="text-indigo-600 font-medium flex items-center">
+                      Learn more <span className="ml-1">→</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-
-            {/* Additional testimonial */}
           </div>
-        </div>
+        </section>
+
+        {/* Why Choose Us Section */}
+        <section className="py-24">
+          <div className="container mx-auto px-6">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Why Top Investors Choose PrimeLayer</h2>
+                <p className="text-xl text-slate-600 dark:text-slate-400">The trusted partner for digital asset management</p>
+              </div>
+              <div className="flex justify-center">
+                <div className="max-w-md p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
+                  <div className="relative">
+                    <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg flex items-center justify-center text-indigo-600 mb-5 mx-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-center">Bank-Grade Security</h3>
+                    <p className="text-slate-600 dark:text-slate-400 text-center">Multi-sig infrastructure and institutional custody solutions protecting your assets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Strategies Section - Modernized */}
+        {/* ... Updated table with more modern styling ... */}
+
+        {/* Testimonials Section - New */}
+        <section className="py-24">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center mb-4">
+                <div className="h-1 w-8 bg-indigo-600 mr-3 rounded-full"></div>
+                <p className="text-sm font-medium text-indigo-600 tracking-widest uppercase">Client Testimonials</p>
+                <div className="h-1 w-8 bg-indigo-600 ml-3 rounded-full"></div>
+              </div>
+              <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">What Our Clients Say</h2>
+            </div>
+
+            {/* Testimonial cards */}
+            <div className="flex justify-center">
+              <div className="max-w-xl p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 shadow-lg">
+                <div className="flex items-center mb-6 justify-center">
+                  <div className="text-yellow-400 flex">
+                    {"\u2605".repeat(5)}
+                  </div>
+                </div>
+                <p className="text-lg italic mb-6 text-center">&quot;PrimeLayer helped our family office execute a $2.8M ETH position with zero slippage during high volatility. Their advice on staking and yield strategies has been invaluable.&quot;</p>
+                <div className="flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900/30 mr-4"></div>
+                  <div>
+                    <p className="font-bold">Michael K.</p>
+                    <p className="text-sm text-slate-500">Former VP, Goldman Sachs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
 
       {/* Contact Section - Modernized */}
