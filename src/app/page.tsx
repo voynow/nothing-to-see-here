@@ -60,7 +60,7 @@ export default function Home() {
               <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Tailored services designed for sophisticated investors seeking secure exposure to digital assets</p>
             </div>
             <div className="flex justify-center">
-              <div className="max-w-md p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
+              <div className="max-w-3xl p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
                 <div className="absolute -right-4 -top-4 w-24 h-24 bg-indigo-100 dark:bg-indigo-900/20 rounded-full opacity-70 group-hover:scale-125 transition-transform"></div>
                 <div className="relative">
                   <div className="flex items-start">
@@ -96,7 +96,7 @@ export default function Home() {
                 <p className="text-xl text-slate-600 dark:text-slate-400">The trusted partner for digital asset management</p>
               </div>
               <div className="flex justify-center">
-                <div className="max-w-md p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
+                <div className="max-w-3xl p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-all group relative overflow-hidden">
                   <div className="relative">
                     <div className="flex items-start">
                       <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg flex items-center justify-center text-indigo-600 mr-4 mb-1 flex-shrink-0">
@@ -129,6 +129,7 @@ export default function Home() {
                 <div className="h-1 w-8 bg-indigo-600 ml-3 rounded-full"></div>
               </div>
               <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">What Our Clients Say</h2>
+              <p className="text-xl text-slate-600 dark:text-slate-400">We make DeFi investing work for you</p>
             </div>
 
             {/* Testimonial cards */}
