@@ -127,7 +127,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-b from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-slate-100 dark:border-slate-700 shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="text-yellow-400 flex">
-                  {'★'.repeat(5)}
+                  {"\u2605".repeat(5)}
                 </div>
               </div>
               <p className="text-lg italic mb-6">&quot;PrimeLayer helped our family office execute a $2.8M ETH position with zero slippage during high volatility. Their advice on staking and yield strategies has been invaluable.&quot;</p>
